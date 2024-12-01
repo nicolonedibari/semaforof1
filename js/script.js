@@ -10,6 +10,7 @@ let reazioneConsentita = false
 
 function handleClick(event) {
 
+    document.querySelector("#result").innerHTML = ""
     let startTimer = generateRandomInteger(500, 1000)
     verde = 0
     reazioneConsentita = false
