@@ -55,7 +55,7 @@ function handleClick(event) {
 
 function calcolaReazione(event) {
     if (!reazioneConsentita) {
-        document.querySelector("#result").innerHTML = "Partenza anticipata!";
+        document.querySelector("#result").innerHTML = "Falsa Partenza!";
     } else {
         let tempoReazione = (Date.now() - verde) / 1000;
         document.querySelector("#result").innerHTML = `Tempo di reazione: ${tempoReazione.toFixed(3)} secondi.`
