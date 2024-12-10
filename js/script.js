@@ -10,7 +10,7 @@ let reazioneConsentita = false
 function handleClick(event) {
 
     document.querySelector("#result").innerHTML = ""
-    let startTimer = generateRandomInteger(500, 3000)
+    let startTimer = generateRandomInteger(500, 4000)
     verde = 0
     reazioneConsentita = false
     resetLuci()
